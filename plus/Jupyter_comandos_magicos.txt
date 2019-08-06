@@ -1,0 +1,47 @@
+Ejecutar un script que está en un archivo:
+% run script.py
+
+
+Tiempo de CPU usado por una línea de código
+%time
+
+
+Tiempo de ejecución medio de ejecución de una línea de código (ejecuta varias veces para el cálculo)
+%timeit 
+
+
+Igual que los anteriores pero para un bloque de código
+%%time
+%%timeit
+
+
+
+Muestra los gráficos como una salida en el propio Notebook (no en una ventana aparte)
+%matplotlib
+
+
+
+Carga automática de referencia
+%load_ext autoreload
+
+
+
+Acceso a la terminal del sistema
+%system python -V
+
+
+Mostrar la lista de variables existentes en el entorno
+%who_ls
+
+
+Configuración de los Jupyter Notebooks
+ %config
+Para configurar autocompletado de operaciones y ayuda.
+%config IPCompleter.greedy=True
+
+Configuración de pantallas retina
+%config InlineBackend.figure_format = 'retina'
+
+
+Cambiar el fondo de los notebooks
+plt.style.use("dark_background")
