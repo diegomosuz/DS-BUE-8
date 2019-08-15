@@ -46,3 +46,10 @@ Configuración de pantallas retina
 Cambiar el fondo de los notebooks
 plt.style.use("dark_background")
 print(plt.style.available)
+
+
+Extensiones a Jupyter
+
+pip install jupyter_contrib_nbextensions
+
+jupyter contrib nbextension install
